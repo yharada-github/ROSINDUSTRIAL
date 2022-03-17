@@ -1,0 +1,1 @@
+/home/ubuntu/catkin_ws/devel/.private/descartes_planner/lib/pkgconfig/descartes_planner.pc

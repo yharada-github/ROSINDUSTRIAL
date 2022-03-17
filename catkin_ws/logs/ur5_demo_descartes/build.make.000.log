@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target ur5_demo_descartes[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ur5_demo_descartes.dir/src/ur_kin.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ur5_demo_descartes.dir/src/ur5_robot_model.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ur5_demo_descartes.dir/src/ur_moveit_plugin.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ur5_demo_descartes.dir/src/plugin_init.cpp.o[0m
+[01m[K/home/ubuntu/catkin_ws/src/ur5_demo_descartes/src/ur_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ur_kinematics::URKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/ubuntu/catkin_ws/src/ur5_demo_descartes/src/ur_moveit_plugin.cpp:169:88:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  169 |   setValues(robot_description, group_name, base_frame, tip_frame, search_discretization[01;35m[K)[m[K;
+      |                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/catkin_ws/src/ur5_demo_descartes/include/ur5_demo_descartes/ur_moveit_plugin.h:100[m[K,
+                 from [01m[K/home/ubuntu/catkin_ws/src/ur5_demo_descartes/src/ur_moveit_plugin.cpp:86[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:345:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  345 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/ubuntu/catkin_ws/devel/.private/ur5_demo_descartes/lib/libur5_demo_descartes.so[0m
+[100%] Built target ur5_demo_descartes

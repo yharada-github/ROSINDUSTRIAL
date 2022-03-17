@@ -1,0 +1,1 @@
+/home/ubuntu/catkin_ws/devel/.private/ur5_demo_descartes/lib/pkgconfig/ur5_demo_descartes.pc

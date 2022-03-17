@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/catkin_ws/src/descartes/descartes_core/include/descartes_core/trajectory_id.h
+iostream
+-
+boost/thread/mutex.hpp
+-
+
+/home/ubuntu/catkin_ws/src/descartes/descartes_core/src/trajectory_id.cpp
+descartes_core/trajectory_id.h
+/home/ubuntu/catkin_ws/src/descartes/descartes_core/src/descartes_core/trajectory_id.h
+

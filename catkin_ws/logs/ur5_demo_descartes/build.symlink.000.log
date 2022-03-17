@@ -1,0 +1,4 @@
+Symlinking /home/ubuntu/catkin_ws/devel/share/ur5_demo_descartes/cmake/ur5_demo_descartesConfig.cmake
+Symlinking /home/ubuntu/catkin_ws/devel/share/ur5_demo_descartes/cmake/ur5_demo_descartesConfig-version.cmake
+Symlinking /home/ubuntu/catkin_ws/devel/lib/libur5_demo_descartes.so
+Symlinking /home/ubuntu/catkin_ws/devel/lib/pkgconfig/ur5_demo_descartes.pc

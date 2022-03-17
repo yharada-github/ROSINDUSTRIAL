@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel/.private/ur5_demo_descartes
+
+Name: ur5_demo_descartes
+Description: Description of ur5_demo_descartes
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/src/ur5_demo_descartes/include
+Libs: -L${prefix}/lib -lur5_demo_descartes
+Requires: moveit_core descartes_moveit pluginlib
